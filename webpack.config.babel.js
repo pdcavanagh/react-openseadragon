@@ -75,7 +75,7 @@ if (build) {
   var externals = {
     externals: {
       react: 'react',
-      'react-dom': 'ReactDOM',
+      'react-dom': 'react-dom',
     },
   };
   module.exports = merge(merge(common, config), externals);
